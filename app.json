@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "meetup-social-login",
+    "slug": "meetup-social-login",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
