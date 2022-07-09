@@ -12,11 +12,13 @@ export function Home() {
           <S.Subtitle>Welcome to Your Tasks!</S.Subtitle>
         </S.HeaderLeft>
 
-        <S.ProfileImage
-          source={{
-            uri: "https://avatars.githubusercontent.com/u/13500056?v=4",
-          }}
-        />
+        <S.ProfileImageContainer>
+          <S.ProfileImage
+            source={{
+              uri: "https://avatars.githubusercontent.com/u/13500056?v=4",
+            }}
+          />
+        </S.ProfileImageContainer>
       </S.Header>
     </S.Container>
   );

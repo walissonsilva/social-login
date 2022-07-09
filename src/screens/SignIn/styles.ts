@@ -11,8 +11,8 @@ export const TopContainer = styled.View`
   background-color: ${({ theme }) => theme.colors["background-header"]};
   justify-content: center;
   padding-top: ${getStatusBarHeight()}px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 `;
 
 export const BrandingContainer = styled.View`
@@ -30,7 +30,7 @@ export const BrandingImage = styled.Image`
 
 export const Brand = styled.Text`
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 300;
   color: ${({ theme }) => theme.colors.white};
   text-align: center;
 `;
@@ -40,7 +40,8 @@ export const Title = styled.Text`
   font-size: 32px;
   color: ${({ theme }) => theme.colors["text-color-soft"]};
   margin-top: 50px;
-  font-weight: 300;
+  font-weight: 500;
+  line-height: 40px;
 `;
 
 export const LoginMessage = styled.Text`

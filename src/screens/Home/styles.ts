@@ -30,9 +30,13 @@ export const Subtitle = styled.Text`
   margin-top: 8px;
 `;
 
+export const ProfileImageContainer = styled.View`
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff33;
+`;
+
 export const ProfileImage = styled.Image`
   width: 70px;
   height: 70px;
-  border-radius: 50%;
-  border: 2px solid #ffffff33;
 `;
