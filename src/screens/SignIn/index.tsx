@@ -21,11 +21,13 @@ export function SignIn() {
         <SocialLoginButton
           image="https://cdn-icons-png.flaticon.com/512/25/25231.png"
           text="Login com o GitHub"
+          provider="github"
         />
 
         <SocialLoginButton
           image="https://imagepng.org/wp-content/uploads/2019/08/google-icon-2.png"
           text="Login com o Google"
+          provider="google"
         />
       </S.AuthButtonsContainer>
     </S.Container>
