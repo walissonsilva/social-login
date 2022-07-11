@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home } from "../screens/Home";
 import { History } from "../screens/History";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import { Profile } from "../screens/Profile";
 
 export function AppRoutes() {
   const { Navigator, Screen } = createBottomTabNavigator();
@@ -13,7 +14,7 @@ export function AppRoutes() {
         headerShown: false,
         tabBarActiveTintColor: "#282a36",
         tabBarInactiveTintColor: "#282a3677",
-        // tabBarLabelPosition: "beside-icon",
+        tabBarLabelPosition: "beside-icon",
       }}
     >
       <Screen
@@ -31,6 +32,15 @@ export function AppRoutes() {
         options={{
           tabBarIcon: ({ color, size }) => (
             <MaterialIcons name="history" color={color} size={size} />
+          ),
+        }}
+      />
+      <Screen
+        name="Profile"
+        component={Profile}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="person" color={color} size={size} />
           ),
         }}
       />
