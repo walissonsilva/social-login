@@ -14,20 +14,22 @@ export function SignIn() {
           <S.Brand>YourTasks</S.Brand>
         </S.BrandingContainer>
 
-        <S.Title>Organize suas tarefas diárias de uma forma simples</S.Title>
+        <S.Title>
+          Plan and execute your daily tasks in a simple and efficient way
+        </S.Title>
       </S.TopContainer>
 
       <S.AuthButtonsContainer>
         <SocialLoginButton
-          image="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-          text="Login com o GitHub"
-          provider="github"
+          image="https://imagepng.org/wp-content/uploads/2019/08/google-icon-2.png"
+          text="Continue with Google"
+          provider="google"
         />
 
         <SocialLoginButton
-          image="https://imagepng.org/wp-content/uploads/2019/08/google-icon-2.png"
-          text="Login com o Google"
-          provider="google"
+          image="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          text="Continue with GitHub"
+          provider="github"
         />
       </S.AuthButtonsContainer>
     </S.Container>

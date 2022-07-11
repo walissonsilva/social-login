@@ -30,17 +30,17 @@ export const BrandingImage = styled.Image`
 
 export const Brand = styled.Text`
   font-size: 22px;
-  font-weight: 300;
-  color: ${({ theme }) => theme.colors.white};
+  font-weight: 500;
+  color: ${({ theme }) => theme.colors["text-color-soft"]};
   text-align: center;
 `;
 
 export const Title = styled.Text`
   text-align: center;
-  font-size: 32px;
-  color: ${({ theme }) => theme.colors["text-color-soft"]};
+  font-size: 34px;
+  color: ${({ theme }) => theme.colors["text-color"]};
   margin-top: 50px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 40px;
 `;
 

@@ -34,4 +34,5 @@ export const SocialButtonText = styled.Text`
   font-size: 18px;
   color: #888;
   padding-right: 10px;
+  font-weight: 500;
 `;
