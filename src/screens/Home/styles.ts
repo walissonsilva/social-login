@@ -31,7 +31,7 @@ export const Subtitle = styled.Text`
 `;
 
 export const ProfileImageContainer = styled.View`
-  border-radius: 50%;
+  border-radius: 99999px;
   overflow: hidden;
   border: 2px solid #ffffff33;
 `;
