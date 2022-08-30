@@ -4,6 +4,10 @@
     "slug": "meetup-social-login",
     "scheme": "meetup-social-login",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "cover"
+    }
   }
 }
