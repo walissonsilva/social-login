@@ -6,7 +6,7 @@ export const Container = styled.View`
   flex: 1;
 `;
 
-export const Button = styled.TouchableOpacity`
+export const Button = styled.Pressable`
   padding: 12px 20px;
   background-color: ${({ theme }) => theme.colors["background-header"]};
   border-radius: 5px;
