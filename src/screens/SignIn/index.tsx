@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import { SocialLoginButton } from "../../components/SocialLoginButton";
+import { useAuth } from "../../hooks/useAuth";
 import * as S from "./styles";
 
 export function SignIn() {
+  const { loadUserInfoFromStorage } = useAuth();
+
+  useEffect(() => {
+    loadUserInfoFromStorage();
+  }, []);
+
   return (
     <S.Container>
       <S.TopContainer>
